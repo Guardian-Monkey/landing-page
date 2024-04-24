@@ -81,6 +81,12 @@ a {
     align-items: center;
 }
 
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
 .cards {
     display: flex;
     gap: 60px;
