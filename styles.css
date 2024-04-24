@@ -125,7 +125,8 @@ a {
 }
 
 .quote .author {
+    width: 700px;
     font-size: 20px;
     font-weight: bold;
-    align-self: flex-end;
+    text-align: end;
 }
