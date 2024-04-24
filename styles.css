@@ -36,3 +36,9 @@ a {
 .nav a {
     text-decoration: none;
 }
+
+.hero img {
+    width: 500px;
+    height: 220px;
+    object-fit: cover;
+}
