@@ -97,6 +97,7 @@ a {
 
 .card {
     width: 170px;
+    text-align: center;
 }
 
 .card img {
