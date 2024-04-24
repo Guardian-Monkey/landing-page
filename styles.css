@@ -27,6 +27,16 @@ body {
     font-weight: 900;
 }
 
+.title {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.content {
+    width: 450px;
+}
+
 /* Common style among links, secondary text in hero, and footer */
 .white-text,
 a {
