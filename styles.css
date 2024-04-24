@@ -83,6 +83,7 @@ a {
 
 .cards {
     display: flex;
+    gap: 60px;
 }
 
 .card {
@@ -93,6 +94,6 @@ a {
     width: 170px;
     height: 170px;
     object-fit: cover;
-    border: 4px solid rgb(6, 156, 249);
+    border: 4px solid rgb(6, 134, 214);
     border-radius: 10%;
 }
