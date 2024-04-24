@@ -11,6 +11,11 @@ body {
     color: #F9FAF8;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Hero Styles */
 .logo {
     font-size: 24px;
@@ -46,8 +51,4 @@ a {
     height: 220px;
     object-fit: cover;
     /* This makes it so that the image can be cropped without distortion */
-}
-
-.header {
-    display: flex;
 }
