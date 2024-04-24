@@ -14,6 +14,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* Hero Styles */
@@ -21,7 +22,7 @@ body {
     font-size: 24px;
 }
 
-.title {
+.main-title {
     font-size: 48px;
     font-weight: 900;
 }
