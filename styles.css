@@ -3,6 +3,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    justify-content: stretch;
 }
 
 .hero,
@@ -11,7 +12,14 @@ body {
     color: #F9FAF8;
 }
 
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .header {
+    width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;
