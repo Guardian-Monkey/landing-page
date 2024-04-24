@@ -74,3 +74,15 @@ a {
     object-fit: cover;
     /* This makes it so that the image can be cropped without distortion */
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
