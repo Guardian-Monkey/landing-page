@@ -31,14 +31,23 @@ a {
 /* Navigation Bar Styles */
 .nav {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 .nav a {
     text-decoration: none;
 }
 
+/* Hero Image Styles */
 .hero img {
     width: 500px;
     height: 220px;
     object-fit: cover;
+    /* This makes it so that the image can be cropped without distortion */
+}
+
+.header {
+    display: flex;
 }
