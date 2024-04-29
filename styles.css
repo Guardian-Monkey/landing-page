@@ -29,6 +29,7 @@ body {
 /* Hero Styles */
 .logo {
     font-size: 24px;
+    font-weight: 500;
 }
 
 .main-title {
@@ -129,4 +130,20 @@ a {
     font-size: 20px;
     font-weight: bold;
     text-align: end;
+}
+
+/* Sign Up Section Styles */
+.call-to-action {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    display: flex;
+}
+
+.sign-up .logo {
+    color: #F9FAF8;
+    font-weight: 500;
 }
