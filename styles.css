@@ -48,6 +48,10 @@ body {
     width: 450px;
 }
 
+.content .white-text {
+    margin-bottom: 10px;
+}
+
 /* Common style among links, secondary text in hero, and footer */
 .white-text,
 a {
