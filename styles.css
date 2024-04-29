@@ -132,6 +132,17 @@ a {
     text-align: end;
 }
 
+/* Button styling */
+button {
+    background-color: #3882F6;
+    border: none;
+    padding: 8px 36px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+
 /* Sign Up Section Styles */
 .call-to-action {
     display: flex;
