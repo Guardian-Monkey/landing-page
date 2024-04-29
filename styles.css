@@ -152,9 +152,16 @@ button {
 .sign-up {
     background-color: #3882F6;
     display: flex;
+    margin: 85px 0;
+    padding: 55px 100px;
+    gap: 150px;
 }
 
 .sign-up .logo {
     color: #F9FAF8;
     font-weight: 500;
+}
+
+.sign-up button {
+    border: 2px solid white;
 }
