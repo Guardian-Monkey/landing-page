@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
@@ -6,6 +7,14 @@ body {
     justify-content: stretch;
 }
 
+/* Common Styles */
+.white-text,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Hero and Footer */
 .hero,
 .footer {
     background-color: #1F2937;
@@ -52,14 +61,7 @@ body {
     margin-bottom: 10px;
 }
 
-/* Common style among links, secondary text in hero, and footer */
-.white-text,
-a {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-/* Navigation Bar Styles */
+/* Navigation Styles */
 .nav {
     list-style-type: none;
     padding: 0;
@@ -80,7 +82,7 @@ a {
     /* This makes it so that the image can be cropped without distortion */
 }
 
-/* Info Section Headers */
+/* Info Section Styles */
 .info {
     display: flex;
     flex-direction: column;
@@ -136,7 +138,7 @@ a {
     text-align: end;
 }
 
-/* Button styling */
+/* Button Styles */
 button {
     background-color: #3882F6;
     border: none;
@@ -147,7 +149,7 @@ button {
     font-weight: 500;
 }
 
-/* Sign Up Section Styles */
+/* Call to Action Styles */
 .call-to-action {
     display: flex;
     justify-content: center;
